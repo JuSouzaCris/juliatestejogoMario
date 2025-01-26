@@ -1,7 +1,7 @@
-const mario = document.querySelector('.mario');
+const mario = document.querySelector('mario');
 const pipe = document.querySelector('.pipe');
 const start = document.querySelector('.start');
-const gameOver = document.querySelector('.game-over');
+const gameOver = document.querySelector(' game-over');
 
 const startGame = () => {
     pipe.classList.add('pipe-animation');
